@@ -1,11 +1,19 @@
-import { createSignal } from "solid-js";
-import "./Counter.css";
+import { Title } from "solid-start";
+import { HttpStatusCode } from "solid-start/server";
 
-export default function Counter() {
-  const [count, setCount] = createSignal(0);
+export default function NotFound() {
   return (
-    <button class="increment" onClick={() => setCount(count() + 1)}>
-      I'm a Swiftie, Click here: {count()}
-    </button>
+    <main>
+      <Title>Not Found</Title>
+      <HttpStatusCode code={404} />
+      <h1>Page Not Found</h1>
+      <p>
+        Visit{" "}
+        <a href="https://start.solidjs.com" target="_blank">
+          start.solidjs.com
+        </a>{" "}
+        to learn how to build SolidStart apps.
+      </p>
+    </main>
   );
 }
