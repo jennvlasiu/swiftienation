@@ -10,9 +10,9 @@ export default function Home() {
       <h1>All things Taylor Swift, Easter Eggs and more! </h1>
       <Counter />
       <p>
-        Visit{" "}
+        Visit our OpenAI{" "}
         <a href="https://chat.openai.com/g/g-POSrA6oW8-tortured-poets-department" target="_blank">
-            Our Open AI Taylor inspired Copilot
+            Taylor inspired Copilot
         </a>{" "}
         to interact with your ultimate Taylor AI companion.
       </p>
