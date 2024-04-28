@@ -5,7 +5,7 @@ export default function Counter() {
   const [count, setCount] = createSignal(0);
   return (
     <button class="increment" onClick={() => setCount(count() + 1)}>
-      Take me to Taylor's AI: {count()}
+      Click: {count()}
     </button>
   );
 }
