@@ -12,9 +12,9 @@ export default function Home() {
       <p>
         Visit{" "}
         <a href="https://chat.openai.com/g/g-POSrA6oW8-tortured-poets-department" target="_blank">
-          Taylor Copilot
+            Our Open AI Taylor inspired Copilot
         </a>{" "}
-        to interact with the ultimate Taylor AI.
+        to interact with your ultimate Taylor AI companion.
       </p>
     </main>
   );
