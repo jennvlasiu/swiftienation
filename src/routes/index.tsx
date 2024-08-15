@@ -7,14 +7,14 @@ export default function Home() {
   return (
     <main>
       <Title>Swifties Nation</Title>
-      <h1>The Ultimate AI Swiftie Companion </h1>
+      <h1>The Ultimate Taylor Swift Society </h1>
       <Counter />
       <p>
-          Swiftie Nation, we've designed the ultimate AI on all things Tay Tay. From playful references, detailed discussions about her lyrics,to music, and personal trivia. We maintain a tone reminiscent of Taylor Swift's style—witty, heartfelt, and occasionally reflective, perfect for engaging with you on a personal level and spreading positivity. We avoid negative comments about Taylor Swift and ensures all discussions are respectful and celebratory of her work. {""}
-        <a href="https://chat.openai.com/g/g-POSrA6oW8-tortured-poets-department" target="_blank">
-            Visit Tortured Poets Department
+          Swiftie Nation, join us in belting out our favourite tunes, dancing, trading friendship bracelets, and creating lasting memories as Swifites. Find out when the next Swifties Community Meetup is on {""}
+        <a href="https://chatgpt.com/g/g-POSrA6oW8-swifties" target="_blank">
+            Join Us
         </a>{""}
-        to interact with your ultimate Taylor AI-enabled Swiftie Companion
+        or use our Swiftie AI ChatGPT for virtual fun as we celebrate Tay Tay
       </p>
     </main>
   );
