@@ -4,7 +4,7 @@ import { HttpStatusCode } from "solid-start/server";
 export default function UnderConstruction() {
   return (
     <main>
-      <Title>Page Under Construction</Title>
+      <Title>Under Construction</Title>
       <HttpStatusCode code={404} />
       <h1>Page Under Construction</h1>
       <p>
